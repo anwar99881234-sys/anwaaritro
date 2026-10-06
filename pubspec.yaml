@@ -1,0 +1,150 @@
+name: rehlatuk
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_animate: ^4.5.0
+
+
+  # Add share_plus here
+  share_plus: ^12.0.1
+
+
+  # Country Packages
+  country_picker: ^2.0.26
+
+  # Firebase
+  firebase_core: ^4.1.1
+  firebase_auth: ^6.1.0
+  cloud_firestore: ^6.0.2
+  firebase_storage: ^13.0.2
+  cloud_functions: ^6.0.2
+  uuid: ^4.5.1
+  timeago: ^3.3.0
+
+  #كلمات مسيئه
+  profanity_filter: ^2.0.0
+
+  # Location / Maps
+  google_maps_flutter: ^2.13.1
+  geolocator: ^14.0.2
+  geocoding: ^2.0.5
+  tflite_flutter: ^0.12.1
+
+
+
+
+
+  # Storage & Preferences
+  shared_preferences: ^2.5.3
+  hive: ^2.2.3
+  path_provider: ^2.0.16
+  open_filex: ^4.0.2
+  permission_handler: ^12.0.1
+
+  # Validation
+  email_validator: ^3.0.0
+
+  # Calendar
+  table_calendar: ^3.2.0
+
+  # Media & PDF
+  image_picker: ^1.2.0
+  pdf: ^3.11.0
+  printing: ^5.13.0
+
+  # URL & Notifications
+  url_launcher: ^6.3.2
+  overlay_support: ^2.1.0
+
+  # Localization
+  flutter_localizations:
+    sdk: flutter
+
+  # Date / Time formatting
+  intl: ^0.20.2
+
+  confetti: ^0.7.0
+
+  # Icons
+  cupertino_icons: ^1.0.8
+  countries_world_map: ^1.3.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  mockito: ^5.4.4
+  mocktail: ^1.0.3
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Regular.ttf
+
+  assets:
+    - assets/beach.jpg
+    - assets/qasr.jpg
+    - assets/hatt.jpg
+    - assets/nizwa.jpg
+    - assets/logo.png
+    - assets/car.jpg
+    - assets/Muscat.jpg
+    - assets/bangkok.jpg
+    - assets/Al_Baleed_Archaeological_Park.jpg
+    - assets/Al_Haffa_Souq.webp
+    - assets/Al_Jalali_Fort.jpg
+    - assets/Corniche_Walk.jpg
+    - assets/Khareef_Taqah.jpg
+    - assets/Mirbat_Beach_Walk.jpg
+    - assets/Mirbat_Castle.jpg
+    - assets/Mirbat_hospital.jpg
+    - assets/Muttrah_Beach.jpg
+    - assets/Muttrah_Fort.jpg
+    - assets/Muttrah_Souq.jpg
+    - assets/Qurum_Beach.jpg
+    - assets/Qurum_City_Center.jpg
+    - assets/Qurum_medical_Center.png
+    - assets/Qurum_Natural_Park.jpeg
+    - assets/Rakhyut_Mountains.jpg
+    - assets/Royal_Opera_House.jpg
+    - assets/Salalah_lifeline.jpg
+    - assets/starcare_hosptial.png
+    - assets/Taqah_Beach.jpg
+    - assets/Taqah_Castle.jpg
+    - assets/Taqah_Hoospital.png
+    - assets/wadi_darbat.jpg
+    - assets/mughsail.jpg
+    - assets/user1.png
+    - assets/user2.png
+    - assets/user3.png
+    - assets/user4.png
+    - assets/image1.jpg
+    - assets/image2.jpg
+    - assets/image3.jpg
+    - assets/image4.jpg
+    - assets/jebelakhdar.jpg
+    - assets/empty_cart.png
+    - assets/muttrahcornish.jpg
+    - assets/wadishab.jpg
+    - assets/travellogo.png
+    - assets/sea.webp
+    - assets/travelhome.jpg
+    - assets/omantourism_intents_with_responses.json
+    - assets/model/model.tflite
+    - assets/model/labels.json
+    - assets/model/vocab.json
